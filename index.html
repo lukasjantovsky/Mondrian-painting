@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+ 
+    .body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: grid;
+      background-color: black;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 22px;
+      height: 748px;
+      width: 748px;
+      gap: 9px;
+      
+    }
+
+    .item {
+      background-color: #F0F1EC;
+    }
+
+    .red{
+      background-color: red;
+ 
+
+    }
+
+    .White1{
+      background-color: #F0F1EC ;
+      grid-column: span 3
+
+    }
+
+    .White2{
+      grid-row: span 2;
+    }
+
+    .white3{
+      grid-area: 2/2/4/4;
+    }
+
+    .white4{
+      grid-row: span 2;
+    }
+    
+
+    .Blue{
+      background-color: blue;
+      border-bottom: 10px solid black;
+     
+
+    }
+
+    .yellow{
+      background-color: yellow;
+
+    }
+
+    .Black{
+      background-color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Mondrian painting project</h1>
+  <div class="body"></div>
+    <div class="container">
+      <div class="item red"></div>
+      <div class="item White1"></div>
+      <div class="item White2"></div>
+      <div class="item white3"></div>
+      
+      <div class="item Blue"></div>
+      <div class="item white4"></div>
+      
+      <div class="item"></div>
+      <div class="item yellow"></div>
+      <div class="item Black"></div>
+  </div>
+</div>
+  
+</body>
+
+</html>
